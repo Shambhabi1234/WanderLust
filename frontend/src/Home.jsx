@@ -109,12 +109,14 @@ export default function Home() {
               >
                 <div className="relative aspect-[11/10] overflow-hidden rounded-2xl bg-gray-200 shadow-sm">
                    {place.photos?.[0] ? (
-                     <img
-                       src={`http://localhost:5000/uploads/${place.photos[0]}`}
-                       alt={place.title}
-                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                     />
-                   ) : (
+  <img
+    src={place.photos[0].includes('https://') 
+      ? place.photos[0] 
+      : `https://wanderlust-uixv.onrender.com/uploads/${place.photos[0]}`}
+    alt={place.title}
+    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+  />
+) : (
                      <div className="flex h-full w-full items-center justify-center text-gray-400 text-sm">No Image</div>
                    )}
                    

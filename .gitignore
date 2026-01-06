@@ -56,5 +56,3 @@ coverage/
 # =========================
 # Uploads (if generated at runtime)
 # =========================
-backend/uploads/*
-!backend/uploads/.gitkeep

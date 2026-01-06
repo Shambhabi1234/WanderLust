@@ -97,10 +97,12 @@ export default function PlacePage() {
       <div className="mt-4 overflow-hidden rounded-3xl max-w-5xl mx-auto shadow-lg">
         {place.photos?.[0] && (
           <img 
-            className="aspect-video object-cover w-full" 
-            src={`http://localhost:5000/uploads/${place.photos[0]}`} 
-            alt={place.title} 
-          />
+  className="aspect-video object-cover w-full" 
+  src={place.photos[0].includes('https://') 
+    ? place.photos[0] 
+    : `https://wanderlust-uixv.onrender.com/uploads/${place.photos[0]}`} 
+  alt={place.title} 
+/>
         )}
       </div>
 
