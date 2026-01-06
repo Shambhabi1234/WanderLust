@@ -2,6 +2,7 @@
 > **"Where every stay tells a story."**
 
 WanderLust is a premium full-stack vacation rental platform built with the MERN stack. It offers a seamless experience for users to discover unique architectural gems, manage favorite stays, and book extraordinary travel experiences effortlessly.
+![Uploading Screenshot 2026-01-06 001031.png…]()
 
 
 
