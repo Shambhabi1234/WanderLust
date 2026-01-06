@@ -1,8 +1,9 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
-  withCredentials: true, // ✅ ADD THIS: Essential for session/cookie-based login
+  // 👇 UPDATE THIS LINE WITH YOUR RENDER URL
+  baseURL: "https://wanderlust-uixv.onrender.com/api", 
+  withCredentials: true, 
   headers: {
     "Content-Type": "application/json",
   },
