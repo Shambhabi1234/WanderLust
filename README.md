@@ -37,7 +37,7 @@ WanderLust is a premium full-stack vacation rental platform built with the MERN 
 | **Backend** | Node.js & Express | RESTful API Architecture |
 | **Database** | MongoDB | Scalable NoSQL Data Modeling |
 | **Auth** | JWT & Cookie-parser | Secure Session Handling |
-|*Deployment:**| Vercel (Frontend) & Render (Backend)
+|**Deployment:**| Vercel (Frontend) & Render (Backend)
 ---
 
 ## 📸 Featured Stays
